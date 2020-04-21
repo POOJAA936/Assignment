@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127388" started-at="2020-04-21T06:40:26Z" finished-at="2020-04-21T06:42:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127388" started-at="2020-04-21T06:40:26Z" finished-at="2020-04-21T06:42:34Z">
+      <class name="DropDown.TestDdAscOrder">
+        <test-method status="PASS" signature="runTestOnDocker()[pri:0, instance:DropDown.TestDdAscOrder@548e7350]" name="runTestOnDocker" duration-ms="42961" started-at="2020-04-21T06:40:26Z" finished-at="2020-04-21T06:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestOnDocker -->
+      </class> <!-- DropDown.TestDdAscOrder -->
+      <class name="DropDown.TestDdDuplicates">
+        <test-method status="PASS" signature="dropDown()[pri:0, instance:DropDown.TestDdDuplicates@1a968a59]" name="dropDown" duration-ms="38140" started-at="2020-04-21T06:41:09Z" finished-at="2020-04-21T06:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+      </class> <!-- DropDown.TestDdDuplicates -->
+      <class name="DropDown.TestDdAllOptions">
+        <test-method status="PASS" signature="allOptions()[pri:0, instance:DropDown.TestDdAllOptions@4667ae56]" name="allOptions" duration-ms="46208" started-at="2020-04-21T06:41:48Z" finished-at="2020-04-21T06:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allOptions -->
+      </class> <!-- DropDown.TestDdAllOptions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
