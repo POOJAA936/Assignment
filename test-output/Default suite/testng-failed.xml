@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="DropDown.TestDdDuplicates">
+      <class name="DropDown.GetallUsers">
         <methods>
-          <include name="dropDown"/>
+          <include name="demo1"/>
         </methods>
-      </class> <!-- DropDown.TestDdDuplicates -->
-      <class name="DropDown.TestDdAscOrder">
-        <methods>
-          <include name="runTestOnDocker"/>
-        </methods>
-      </class> <!-- DropDown.TestDdAscOrder -->
+      </class> <!-- DropDown.GetallUsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
